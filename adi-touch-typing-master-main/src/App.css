@@ -1,0 +1,49 @@
+.app-container {
+  background-color: #222121;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  background-color: #023149;
+  height: 80px;
+  width: 100%;
+  font-family: Rockwell;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-text {
+  text-align: center;
+  color: rgb(235, 237, 238);
+  font-size: 60px;
+}
+
+.typing-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.footer-container {
+  background-color: #023149;
+  height: 60px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-text {
+  color: aliceblue;
+  font-family: Roboto;
+  font-size-adjust: 42px;
+  text-align: center;
+}

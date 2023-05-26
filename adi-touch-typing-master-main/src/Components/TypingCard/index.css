@@ -1,0 +1,97 @@
+.typing-test-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  margin-left: 1.5rem;
+  max-width: 65%;
+  min-width: 62%;
+  margin-right: 1.5rem;
+  border-radius: 10px;
+  padding-top: 60px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 50%;
+}
+
+.wpm {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.lesson-container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.lesson {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.text-container {
+  margin-top: 50px;
+  min-width: 90%;
+  background-color: rgb(106, 179, 212);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  min-height: 60px;
+  flex-wrap: wrap;
+}
+
+.text-style {
+  font-size: 36px;
+  padding: 10px;
+  color: black;
+  margin: 0px;
+}
+
+.input-container {
+  margin-top: 50px;
+  min-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  min-height: 60px;
+  flex-wrap: wrap;
+}
+
+.entry {
+  min-width: 90%;
+  text-align: center;
+}
+
+.failed-style {
+  font-size: 36px;
+  padding: 10px;
+  color: black;
+  margin: 0px;
+  background-color: lightcoral;
+}
+
+.reset-btn {
+  height: 34px;
+  width: 80px;
+  background-color: brown;
+  color: black;
+  font-size: 16px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.highlight {
+  background-color: lightgreen;
+}
